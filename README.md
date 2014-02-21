@@ -1,7 +1,6 @@
-multi-language-test
-===================
-
-Multi-language project used for making tests on SonarQube
+Multi-language sample project
+=======================
+*Multi-language project used for making tests on SonarQube*
 
 #### Featured languages
 - **Java** - with coverage
