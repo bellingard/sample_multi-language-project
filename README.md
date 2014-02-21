@@ -6,7 +6,7 @@ Multi-language sample project
 - **Java** - with coverage
 - **JavaScript** - with coverage
 - **Flex** - with coverage
-- - **Groovy**
+- **Groovy**
 
 #### How to run
 - Using Maven:
