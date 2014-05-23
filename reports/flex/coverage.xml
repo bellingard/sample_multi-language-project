@@ -2,10 +2,13 @@
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
 <coverage line-rate="0.5" branch-rate="0.5" lines-covered="3" lines-valid="6" branches-covered="1" branches-valid="2" complexity="0.0" version="1.9.4" timestamp="1389028128081">
+	<sources>
+		<source>src/main/flex/</source>
+	</sources>
 	<packages>
 		<package name="" line-rate="0.6" branch-rate="1.0" complexity="0.0">
 			<classes>
-				<class name=".Circle" filename="src/main/flex/Circle.as" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+				<class name=".Circle" filename="Circle.as" line-rate="1.0" branch-rate="1.0" complexity="0.0">
 					<methods>
 					</methods>
 					<lines>
@@ -15,7 +18,7 @@
 						<line number="10" hits="0" branch="false"/>
 					</lines>
 				</class>
-				<class name=".UncoveredCircle" filename="src/main/flex/UncoveredCircle.as" line-rate="0.0" branch-rate="0.0" complexity="0.0">
+				<class name=".UncoveredCircle" filename="UncoveredCircle.as" line-rate="0.0" branch-rate="0.0" complexity="0.0">
 					<methods>
 					</methods>
 					<lines>
