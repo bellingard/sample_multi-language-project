@@ -7,8 +7,8 @@
     <name>Multi-Language Test Project</name>
   
     <properties>
-        <sonar.inclusions>src/main/**</sonar.inclusions>
-        <sonar.test.inclusions>src/test/**</sonar.test.inclusions>
+        <sonar.sources>src/main</sonar.sources>
+        <sonar.tests>src/test</sonar.tests>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 
         <!-- For Java -->
