@@ -9,7 +9,6 @@
     <properties>
         <sonar.sources>src/main</sonar.sources>
         <sonar.tests>src/test</sonar.tests>
-        <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 
         <!-- For Java -->
         <sonar.junit.reportsPath>reports/java/surefire-reports</sonar.junit.reportsPath>

@@ -1,5 +1,6 @@
 # Don't ignore this "." file
 !.gitignore
-!target
+!target/classes
+!target/test-classes
 !*.class
 target/sonar/
