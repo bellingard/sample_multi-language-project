@@ -7,7 +7,7 @@ jdk:
 
 script:
   - mvn clean package
-  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] && echo "=============> Pull request is ${TRAVIS_PULL_REQUEST}"'
+  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] && echo "=============> Pull request is ${TRAVIS_PULL_REQUEST}" || false'
 
 cache:
   directories:
