@@ -2,7 +2,7 @@ Multi-language sample project
 =======================
 *Multi-language project used for making tests on SonarQube*
 
-![Build status](https://travis-ci.org/bellingard/multi-language-test.svg?branch=master)
+[![Build status](https://travis-ci.org/bellingard/multi-language-test.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-test)
 
 #### Featured languages
 - **Java** - with coverage
