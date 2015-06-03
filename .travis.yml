@@ -7,8 +7,7 @@ jdk:
 
 script:
   - mvn clean package
-  - 'env | grep TRAVIS'
-  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] && mvn sonar:sonar -Dsonar.host.url=${NEMO_URL} -Dsonar.github.login=${GITHUB_LOGIN} -Dsonar.github.oauth=${GITHUB_TOKEN} -Dsonar.github.repository=bellingard/multi-language-test -Dsonar.github.pullRequest=${TRAVIS_PULL_REQUEST} || false'
+  - ./analyse-pull-request.sh
 
 cache:
   directories:
