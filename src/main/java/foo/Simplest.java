@@ -5,14 +5,10 @@ package foo;
  */
 public class Simplest {
 
-	public String s;
-	public String s2;
-	public String s3;
-
     public static int add(int a, int b) {
     	int result = a + b;
 
-    	System.out.println("");
+    	System.out.println("Result = " + result);
 
         return result;
     }
