@@ -1,6 +1,5 @@
 Multi-language sample project
 =======================
-*Multi-language project used for making tests on SonarQube*
 
 [![Build status](https://travis-ci.org/bellingard/multi-language-test.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-test)
 
@@ -17,3 +16,7 @@ Multi-language sample project
 - Using Sonar Runner: *(Java classes are already compiled in "target/classes" for your convenience)*
 
 > sonar-runner
+
+#### Pull Request analyses
+
+The Travis YAML file allows to run SonarQube analysis on pull requests.
