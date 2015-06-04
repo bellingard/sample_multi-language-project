@@ -5,6 +5,8 @@ public class Simplest2 {
 	public static void foo() {
 		Object o = null;
 		int i = o.hashCode();
+
+		System.out.println("");
 	}
 
 }
