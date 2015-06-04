@@ -9,4 +9,6 @@ then
 		-Dsonar.github.oauth=${GITHUB_TOKEN} \
 		-Dsonar.github.repository=bellingard/multi-language-test \
 		-Dsonar.github.pullRequest=${TRAVIS_PULL_REQUEST}
+else
+	echo "Not on a Pull Request => nothing to do."
 fi

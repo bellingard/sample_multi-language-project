@@ -11,7 +11,8 @@ public class Simplest {
 
     public static int add(int a, int b) {
     	// introduce a variable that is not needed - just to get a violation
-		int i;
+		Object o = null;
+		int i = o.hashCode();
 
     	int result = a + b;
 
