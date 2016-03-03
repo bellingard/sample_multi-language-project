@@ -1,4 +1,4 @@
-Multi-language Test project
+Multi-language Test Project
 =======================
 
 [![Build status](https://travis-ci.org/bellingard-sqbot/multi-language-project.svg?branch=master)](https://travis-ci.org/bellingard-sqbot/multi-language-project)
