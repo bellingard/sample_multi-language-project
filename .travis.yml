@@ -6,7 +6,7 @@ jdk:
   - oraclejdk7
 
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package\
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar \
        -Dsonar.host.url=$SONAR_HOST_URL \
        -Dsonar.login=$SONAR_TOKEN
   - ./analyse-pull-request.sh
