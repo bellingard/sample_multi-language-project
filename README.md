@@ -1,7 +1,7 @@
-Multi-language sample project
+Multi-language Test project
 =======================
 
-[![Build status](https://travis-ci.org/bellingard/multi-language-test.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-test)
+[![Build status](https://travis-ci.org/bellingard-sqbot/multi-language-project.svg?branch=master)](https://travis-ci.org/bellingard-sqbot/multi-language-project)
 
 #### Featured languages
 - **Java** - with coverage
