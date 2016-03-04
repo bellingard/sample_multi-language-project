@@ -12,3 +12,5 @@ Person.prototype = {
     }
 
 };
+
+alert('foo');
