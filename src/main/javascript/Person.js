@@ -12,5 +12,3 @@ Person.prototype = {
     }
 
 };
-
-alert('foo');
