@@ -5,7 +5,14 @@
     <artifactId>multi-language-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Multi-Language Test Project</name>
-  
+    <url>https://github.com/bellingard-sqbot/multi-language-project</url>
+
+    <scm>
+        <connection>scm:git:git@github.com:bellingard-sqbot/multi-language-project.git</connection>
+        <developerConnection>scm:git:git@github.com:bellingard-sqbot/multi-language-project.git</developerConnection>
+        <url>https://github.com/bellingard-sqbot/multi-language-project</url>
+    </scm>
+
     <properties>
         <sonar.sources>src/main</sonar.sources>
         <sonar.tests>src/test</sonar.tests>
