@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -euo pipefail
-
 if [ "${TRAVIS_PULL_REQUEST}" != "false" ] 
 then
 	echo "Starting Pull Request analysis by SonarQube..."
