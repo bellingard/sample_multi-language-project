@@ -13,7 +13,7 @@ then
 else
 	echo "Running build and SonarQube analysis"
 	mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar \
-		-Dsonar.projectKey=bellingard-sqbot_multi-language-project \
+		-Dsonar.projectKey=$NEMO_PROJECT_KEY \
 		-Dsonar.host.url=$SONAR_HOST_URL \
 		-Dsonar.login=$SONAR_TOKEN
 fi
