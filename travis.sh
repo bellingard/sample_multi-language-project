@@ -5,7 +5,7 @@ then
 	echo "Starting Pull Request analysis by SonarQube..."
 	mvn clean package sonar:sonar \
 		-Dsonar.analysis.mode=preview \
-		-Dsonar.host.url=${NEMO_URL} \
+		-Dsonar.host.url=${SONAR_HOST_URL} \
 		-Dsonar.github.login=${GITHUB_LOGIN} \
 		-Dsonar.github.oauth=${GITHUB_TOKEN} \
 		-Dsonar.github.repository=bellingard/multi-language-test \

@@ -1,7 +1,4 @@
 # Don't ignore this "." file
 !.gitignore
 !.travis.yml
-!target/classes
-!target/test-classes
-!*.class
 target/sonar/
