@@ -33,5 +33,5 @@ elif [ "$TRAVIS_PULL_REQUEST" != "false" ] && [ -n "${GITHUB_TOKEN-}" ]; then
 		-Dsonar.github.repository=$TRAVIS_REPO_SLUG \
 		-Dsonar.github.pullRequest=$TRAVIS_PULL_REQUEST
 else
-	echo "Neither on master branch nor on a pull request: nothing to do now."
+	# Neither on master branch nor on a non-external pull request => nothing to do
 fi
