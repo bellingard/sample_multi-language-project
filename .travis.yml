@@ -8,10 +8,6 @@ jdk:
   - oraclejdk8
 
 script:
-  - mkdir ~/maven
-  - curl -sSL http://apache.mirrors.ovh.net/ftp.apache.org/dist/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz | tar zx -C ~/maven
-  - export M2_HOME=~/maven/apache-maven-3.3.3
-  - export PATH=$M2_HOME/bin:$PATH
   - echo "Check Maven OPTS env variable => \"$MAVEN_OPTS\""
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -B -e -V -Dsonar.login=$SONAR_TOKEN
 
