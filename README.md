@@ -1,7 +1,7 @@
 Multi-language Test Project
 =======================
 
-[![Build status](https://travis-ci.org/bellingard/multi-language-project.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-project) [![Quality Gate](https://nemo.sonarqube.org/api/badges/gate?key=test:multi-language-project)](https://nemo.sonarqube.org/dashboard/index/test:multi-language-project)
+[![Build status](https://staging.travis-ci.org/bellingard/multi-language-project.svg?branch=master)](https://staging.travis-ci.org/bellingard/multi-language-project) [![Quality Gate](https://nemo.sonarqube.org/api/badges/gate?key=test:multi-language-project)](https://nemo.sonarqube.org/dashboard/index/test:multi-language-project)
 
 #### Featured languages
 - **Java** - with coverage
