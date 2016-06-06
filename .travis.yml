@@ -9,6 +9,9 @@ jdk:
 
 script:
   - echo "Check the Maven OPTS env variable to see wether the addon is working or not => $MAVEN_OPTS"
+  - echo "And try to launch the SQ Scanner to see if it's installed..."
+  - sonar-scanner -v
+  - echo "And finnaly try to really execute a SQ analysis using Maven..."
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -B -e -V -Dsonar.login=$SONAR_TOKEN
 
 cache:
