@@ -8,10 +8,8 @@ jdk:
   - oraclejdk8
 
 script:
-  - cat /etc/mavenrc
-  - cat /etc/maven_opts
-  - echo "Check Maven OPTS env variable => \"$MAVEN_OPTS\""
-  - echo "MAVEN_OPTS='$MAVEN_OPTS'" > ~/.mavenrc
+  - echo "source /etc/mavenrc" >> ~/.mavenrc
+  - echo "export MAVEN_OPTS='$MAVEN_OPTS -Dsonar.host.url=https://nemo.sonarqube.org'" >> ~/.mavenrc
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -B -e -V -Dsonar.login=$SONAR_TOKEN
 
 cache:
