@@ -21,6 +21,6 @@ Take a look at the [runSonarQubeAnalysis.sh](https://github.com/bellingard/multi
 
 #### How to run an analysis on your SonarQube instance?
 
-Make sure you have installed SonarQube with the Java, JavaScript and Groovy plugins. Then run:
+Make sure you have installed SonarQube with the Java, JavaScript and Groovy plugins. Make sure that Maven is installed on your system. Then run:
 
 > mvn sonar:sonar
