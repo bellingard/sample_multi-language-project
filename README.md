@@ -1,18 +1,18 @@
 Multi-language Test Project
 =======================
 
-[![Build status](https://travis-ci.org/bellingard/multi-language-project.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-project) [![Quality Gate](https://nemo.sonarqube.org/api/badges/gate?key=test:multi-language-project)](https://nemo.sonarqube.org/dashboard/index/test:multi-language-project)
+[![Build status](https://travis-ci.org/bellingard/multi-language-project.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-project) [![Quality Gate](https://sonarqube.com/api/badges/gate?key=test:multi-language-project)](https://sonarqube.com/dashboard/index/test:multi-language-project)
 
 #### Featured languages
 - **Java** - with coverage
 - **JavaScript** - with coverage
 - **Groovy**
 
-#### This project is analysed on [Nemo](https://nemo.sonarqube.org)!
+#### This project is analysed on [SonarQube.com](https://sonarqube.com)!
 
 Analysis is performed:
-- On the master branch: the results are pushed to Nemo
- - See https://nemo.sonarqube.org/overview?id=test%3Amulti-language-project
+- On the master branch: the results are pushed to SonarQube.com
+ - See https://sonarqube.com/overview?id=test%3Amulti-language-project
 - On pull requests: the results are available within the pull request
  - See https://github.com/bellingard/multi-language-project/pull/5
 
