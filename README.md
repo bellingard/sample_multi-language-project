@@ -3,11 +3,6 @@ Multi-language Test Project
 
 [![Build status](https://travis-ci.org/bellingard/multi-language-project.svg?branch=master)](https://travis-ci.org/bellingard/multi-language-project) [![Quality Gate](https://sonarqube.com/api/badges/gate?key=test:multi-language-project)](https://sonarqube.com/dashboard/index/test:multi-language-project)
 
-#### Featured languages
-- **Java** - with coverage
-- **JavaScript** - with coverage
-- **Groovy**
-
 #### This project is analysed on [SonarQube.com](https://sonarqube.com)!
 
 Analysis is performed:
@@ -24,3 +19,8 @@ Take a look at the [runSonarQubeAnalysis.sh](https://github.com/bellingard/multi
 Make sure you have installed SonarQube with the Java, JavaScript and Groovy plugins. Make sure that Maven is installed on your system. Then run:
 
 > mvn sonar:sonar
+
+#### Featured languages
+- **Java** - with coverage
+- **JavaScript** - with coverage
+- **Groovy**
