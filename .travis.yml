@@ -1,14 +1,12 @@
 language: java
 sudo: false
 install: true
-addons:
-  sonarqube: true
 
 jdk:
   - oraclejdk8
 
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -B -e -V -Dsonar.login=$SONAR_TOKEN
+  - ./runSonarQubeAnalysis.sh
 
 cache:
   directories:
