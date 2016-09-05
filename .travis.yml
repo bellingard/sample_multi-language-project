@@ -2,12 +2,15 @@ language: java
 sudo: false
 install: true
 addons:
-  sonarqube: true
+  sonarqube:
+    token:
+      secure: "c0Iq8o2f4oVJ92DaeNArFjoxW/foA++d8ViZHrujr4CTPXvupo+q8VKGHyMSjSqiRaJAnvUvtp+eNOhYjobE6AwJYZbqq7w/d2J8JcgZyBcILVyMM3NmbBX+nwIbjGm8rcqniLLTsNGT32fHUwPm2ja8fNeqB1/mmnhPKDyWIpuRcgCnoUn6ej4LCa0+VDpodTwrTmt8uMKrjBQos9xGm4zD/f/x6nP8zGrc02BWUbt0meR8XOqPeKtZRkCtQpwK6QhMQu4hXh1N4JS46uA0J1rMTueR343bBsKqR+OwATBlvwHaamC9dA4HhJWQCRSvEVS25yHCbv4TDZcmV+Z7ONnuAsBOLFVWxmwFY4+q8KRhqeEqXXtg+7u+BBPaHGciUAOJqur5Gvgqhj0WwdZ0ZCbe1m7MMxjhKUQE+2PunIji2sg5VD8fCFicGn8WcZESv9xO/3JO29sh9PCQUq6UVn7I+5dc9GXg0Oxa/PHoSZHlXQPgY9HxTQgMp/QNOnud0HJRL/y5G88CcZRSvyxd1SRxWxqUZjd8h0v0bA1doqbqhKhj5c+feI6JvdaTgi69klAfH9MzQFbEiXjxH9Ul1SMyKs+ZEfN2FoyhtnRvVWuyxedGjtl6mJ3TB8UVXdyG0o1QAHNv/auyqP3ntnCrDTWRfzV2Q07+Ei8GaQYG/Bg="
 
 jdk:
   - oraclejdk8
 
 script:
+  - echo $SONARQUBE_SCANNER_PARAMS
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -B -e -V -Dsonar.login=$SONAR_TOKEN
 
 cache:
