@@ -9,6 +9,7 @@ var Car = function(brand, model, year) {
 Car.prototype = {
 
 	getFullName : function() {
+		var foo;
 		return this.brand + ' ' + this.model + ' ' + 'Y: ' + this.year;
 	},
 
