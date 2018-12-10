@@ -24,6 +24,7 @@ Car.prototype = {
 	},
 
 	startEngine : function() {
+		alert('boo')
 		this.engineState = 'started';
 		return 'engine started';
 	},
