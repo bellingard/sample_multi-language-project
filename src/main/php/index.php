@@ -7,7 +7,7 @@ class PHPMailer
     const ENCODING_QUOTED_PRINTABLE = 'quoted-printable';
 
     /**
-     *
+     * :-)
      * @var string
      */
     public $Password = '';
