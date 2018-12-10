@@ -1,8 +1,5 @@
 <?php
 
     function doSomething() {
-
+        $foo = 5
     }
-
-    echo '<p>This is a PHP script</p>';
-?>
