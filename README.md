@@ -25,5 +25,4 @@ Make sure you have installed SonarQube with the Java, JavaScript and Groovy plug
 - **JavaScript** - with coverage
 - **Groovy**
 
-TEST
 
