@@ -1,5 +1,6 @@
 
 var Person = function(first, last, middle) {
+    // TODO again
     this.first = first;
     this.middle = middle;
     this.last = last;
@@ -8,7 +9,8 @@ var Person = function(first, last, middle) {
 
 Person.prototype = {
 
-    whoAreYou : function() {
+    whoAreYou : function() {    
+        alert('blah');
         return this.first + (this.middle ? ' ' + this.middle: '') + ' ' + this.last;
     }
 
