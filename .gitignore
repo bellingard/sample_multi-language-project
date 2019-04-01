@@ -2,4 +2,3 @@
 !.gitignore
 !.travis.yml
 target/sonar/
-src/main/javascript/Person.js
