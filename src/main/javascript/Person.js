@@ -1,5 +1,6 @@
 
 var Person = function(first, last, middle) {
+    alert('booo');
     this.first = first;
     this.middle = middle;
     this.last = last;
