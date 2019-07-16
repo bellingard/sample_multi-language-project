@@ -12,6 +12,7 @@ var Vehicle = function(brand, model, year) {
 	this.year = year;
 	this.engineState = 'stopped';
 	this.messageToDriver = '';
+	alert('BOUM')
 };
 
 
